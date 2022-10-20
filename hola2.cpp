@@ -2,12 +2,10 @@
 #include <string>
 int main ()
 {
-  string a;
-  std::cout << "¿Cuál es tu nombre?";
-  getline (cin,a);
+  std::string a;
+  std::cout << "¿Cuál es tu nombre?" << std::endl;
+  getline (std::cin,a);
   std::cout << "Hola " << a << ".\n";
-  std::cout << "¿Read-Teaming, Pentesting o CNE?";
-  getline (cin, a);
-  cout << "Bienvenido" << a << " \n";
+  std::cout << "Si te agrada el Read-Teaming, Pentesting, CNE" << std::endl << "Bienvenido!!!" << std::endl;
   return 0;
 }
